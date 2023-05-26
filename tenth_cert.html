@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Request for 10th Certificate</title>
+	<style>
+		body {
+			background-color: #dfeb63; /* set the background color to light gray */
+			font-family: Arial, sans-serif;
+			font-size: 18px;
+			line-height: 1.5;
+			margin: 4;
+			padding: 2;
+		}
+		
+		form {
+			background-color: #c4d9f5; 
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			border: 1px solid #d3b2b2;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		input[type="text"], textarea {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 3px solid #ccc;
+			box-sizing: border-box;
+			margin-bottom: 30px;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 15px;
+		}
+		h1, h2 {
+			text-align: center;
+		}
+	</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color: floralwhite;">
+
+	<h1>NSS POLYTECHNIC COLLEGE</h1>
+	<h2>Request for 10th Certificate Form</h2>
+
+    <form onsubmit="printForm()">
+
+		<label for="name">Name:<span style="color:red;">*</span></label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="rollno">Roll number:<span style="color:red;">*</span></label>
+		<input type="number" id="rollno" name="rollno" required> &nbsp;
+
+		&nbsp;&nbsp;<label for="rollno">Reg number:</label>
+		<input type="number" id="regno" name="regno"><br>
+
+        <br><label for="dob">Date of Birth:<span style="color:red;">*</span></label>
+		<input type="date" id="dob" class="text-field" required><br>
+		
+		<br><label for="branch">Department:<span style="color:red;">*</span></label>
+		<select id="branch" name="branch" required>
+			<option value="">Select Department</option>
+			<option value="Computer Engineering">Computer Engineering</option>
+			<option value="Civil Engineering">Civil Engineering</option>
+			<option value="Mechanical Engineering">Mechanical Engineering</option>
+			<option value="Electrical & Electronics Engineering">Electrical & Electronics Engineering</option>
+			<option value="Electronics & Communication Engineering">Electronics & Communication Engineering</option> 
+		</select> &nbsp;&nbsp;&nbsp;
+		
+
+		<label for="sem">Semester:<span style="color:red;">*</span></label>
+		<select id="sem" name="sem" required>
+			<option value="">Select Semester</option>
+			<option value="first">First</option>
+			<option value="second">Second</option>
+			<option value="third">Third</option>
+			<option value="fourth">Fourth</option>
+			<option value="fifth">Fifth</option>
+			<option value="sixth">Sixth</option>
+		</select> &nbsp;<br>
+		
+	
+		<br><label for="date">Date:<span style="color:red;">*</span></label>
+		<input type="date" id="date" name="date" placeholder="DD/MM/YYYY" required><br><br>
+
+
+		<label for="reason">Reason for 10th Certificate:<span style="color:red;">*</span></label>
+		<select id="reason" name="reason" required>
+		  <option value="">Select reason</option>
+		  <option value="To meet a job application requirement that asks for proof of your educational qualifications, including your 10th-grade certificate.">Job application requirement</option>
+		  <option value="To apply for higher education or vocational training that requires a copy of your 10th-grade certificate as a prerequisite.">Higher education or vocational training</option>
+		  <option value="To obtain a duplicate or replacement certificate if you have lost or damaged your original certificate.">Duplicate or replacement certificate</option>
+		  <option value="To validate your academic credentials for immigration purposes or visa applications.">Immigration or visa application</option>
+		  <option value="To claim a scholarship or financial aid that requires proof of academic performance, including your 10th-grade scores.">Scholarship or financial aid</option>
+		  <option value="To satisfy a legal requirement, such as submitting educational certificates as evidence in a court case.">Legal requirement</option>
+		  <option value="To fulfill the eligibility criteria for government schemes or programs that require a 10th-grade certificate.">Government schemes or programs</option>
+		  <option value="To document your academic progress and achievements for personal or professional reasons, such as creating a portfolio or resume.">Personal or professional documentation</option>
+		  <option value="To satisfy the admission requirements for an extracurricular activity, such as a sports team, music band, or theater group, that requires proof of your academic performance.">Extracurricular activity requirement</option>
+		  <option value="Other">Other</option>
+		</select>
+		<br><br>
+		<input type="text" id="other_reason" name="other_reason" placeholder="Please specify" style="display:none;" required>
+		<script>
+		  function toggleOtherReason() {
+			var otherReasonInput = document.getElementById("other_reason");
+			var reasonSelect = document.getElementById("reason");
+			if (reasonSelect.value == "Other") {
+			  otherReasonInput.style.display = "inline-block";
+			  otherReasonInput.required = true;
+			} else {
+			  otherReasonInput.style.display = "none";
+			  otherReasonInput.required = false;
+			}
+		  }
+		  document.getElementById("reason").addEventListener("change", toggleOtherReason);
+		</script>
+
+<div class="d-grid gap-2 col-6 mx-auto">
+	<br><input type="submit" value="Submit">
+  </div>
+
+<button type="button" class="btn btn-outline-danger" onclick="goBack()">Go Back</button>
+
+</form>
+	<script>
+		var prevPageUrl = document.referrer;
+		function goBack() {
+		  if(prevPageUrl){
+			window.location.href = prevPageUrl;
+		  } else {
+			window.location.href = "file:///D:/minor%20pro/form_pages/form_project_navigation_page.html";
+		  }
+		}
+	</script>
+	<script>
+		function printForm() {
+			
+
+			// Prevent the form from submitting
+			event.preventDefault();
+
+			// Get the form values
+			const name = document.getElementById("name").value;
+			const rollno = document.getElementById("rollno").value;
+			const regno = document.getElementById("regno").value;
+			const branch = document.getElementById("branch").value;
+			const sem = document.getElementById("sem").value;
+			const date = document.getElementById("date").value;
+			const dob = document.getElementById("dob").value;
+			const reason = document.getElementById("reason").value;
+			const other_reason = document.getElementById("other_reason").value;
+
+
+            const content = `
+
+						<p><br><br><br></p>
+                        <p><strong>TO</strong></p> 
+						<p><strong>Head of ${branch} Department,</strong></p> 
+						<p><strong>NSS Polytechnic College,Pandalam</strong></p>
+						<p><strong>Date:</strong> ${date}</p>
+						<p>Dear Sir/Madam,</p> 
+	<p>I am writing to request your permission to obtain my 10th certificate from NSS Polytechnic College. As a former student of this esteemed institution, I believe this certificate is an essential document that I must possess. My name is ${name}, and I am a student of ${branch} , currently in ${sem}, Roll No. ${rollno}.My registration number is <strong>${regno}</strong>,and my date of birth is <strong>${dob}</strong>.</p>
+	<p>The reason for the 10th Certificate  is ${reason}${other_reason}.</p>
+	<p>I kindly request that you grant me permission to obtain my 10th certificate from the college's administrative office. I assure you that I will comply with all the necessary procedures and regulations as set forth by the college.</p>
+	<p>I appreciate your consideration of this request and look forward to hearing back from you soon.</p>
+	<p>Thank you for your time.</p>
+	<br><br>
+	<p>Sincerely,</p>
+	<p><strong>${name}</strong></p>
+    <p><strong>Reg Number: ${regno}</strong></p>
+    `;
+    const printWindow = window.open('', '', 'width=800,height=600');
+					printWindow.document.write('<html><head><title>Request for 10th Certificate</title>');
+					printWindow.document.write('</head><body>');
+					printWindow.document.write(content);
+					printWindow.document.write('</body></html>');
+					printWindow.document.close();
+
+				// Print the window
+
+				printWindow.print();
+
+	
+	}
+	</script>
+</html>
+
+
+
+
+
+
+
+
